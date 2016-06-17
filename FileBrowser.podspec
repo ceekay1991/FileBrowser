@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.authors      = { 'ceekay1991' => 'ceekay1991@gmail.com'}
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/ceekay1991/FileBrowser.git", :tag => s.version }
-  s.source_files = 'FileBrowser, 'FileBrowser/*.{h,m,xib}'
+  s.source_files = 'Class/*.{h,m,xib}'
+  s.public_header_files = 'Class/*.h'   #公开头文件地址
   s.requires_arc = true
 end
